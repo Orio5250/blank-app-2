@@ -9,7 +9,7 @@ st.set_page_config(page_title="アランナラ検定", page_icon="🍀")
 @st.cache_data
 def load_data():
     # 前の工程で作ったdata.csvを読み込む
-    return pd.read_csv('data.csv')
+    return pd.read_csv('アランナラ.csv')
 
 df = load_data()
 
